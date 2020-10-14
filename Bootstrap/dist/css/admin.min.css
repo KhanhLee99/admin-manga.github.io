@@ -198,6 +198,7 @@ a {
 	padding-bottom: 20px;
 	font-family: 'Roboto Medium';
 	text-transform: uppercase;
+	/* text-decoration: underline; */
 }
 
 .content-wrapper .main-content label{
@@ -280,11 +281,21 @@ option {
 .fl-right{
 	float: right;
 }
-
+.hr{
+	width: 100%;
+	height: 25px;
+	border-bottom: 2px solid black;
+}
+.hr1{
+	width: 100%;
+	border-bottom: 2px solid black;
+	margin-top: -20px;
+	margin-bottom: 23px;
+}
 .form-search{
 	width: 100%;
 	margin-bottom: 18px;
-	/* margin-right: 15px; */
+	/* margin-top: 15px; */
 	/* border: 1px solid blue; */
 }
 
